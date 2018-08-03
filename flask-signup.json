@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "image": "ankurjha21/flask-signup/signup:%BUILD_NUMBER%",
-            "name": "flask-signup-latest",
+            "name": "flask-signup",
             "cpu": 10,
             "memory": 256,
             "essential": true,
