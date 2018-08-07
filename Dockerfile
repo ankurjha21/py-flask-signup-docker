@@ -1,7 +1,3 @@
-FROM python:2.7
+FROM python:2-onbuild
 MAINTAINER Ankur jha "ankurjha19@gmail.com"
-COPY . /app
-WORKDIR /app
-RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
-CMD ["app.py"]
+CMD [ "python", "./application.py" ]
