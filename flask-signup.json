@@ -2,7 +2,7 @@
     "family": "ecs-flask",
     "containerDefinitions": [
         {
-            "image": "ankurjha21/ecs-flask:v_1",
+            "image": "ankurjha21/ecs-flask",
             "name": "ecs-flask",
             "cpu": 10,
             "memory": 256,
