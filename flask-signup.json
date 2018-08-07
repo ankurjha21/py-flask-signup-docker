@@ -1,9 +1,9 @@
 {
-    "family": "flask-signup",
+    "family": "ecs-flask",
     "containerDefinitions": [
         {
-            "image": "ankurjha21/ecs_flask/signup:%BUILD_NUMBER%",
-            "name": "flask-signup",
+            "image": "ankurjha21/ecs-flask:v_0",
+            "name": "ecs-flask",
             "cpu": 10,
             "memory": 256,
             "essential": true,
