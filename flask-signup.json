@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "image": "ankurjha21/flask-signups",
-            "name": "ecs-flask",
+            "name": "flask-signups",
             "cpu": 10,
             "memory": 256,
             "essential": true,
