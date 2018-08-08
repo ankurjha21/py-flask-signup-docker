@@ -1,8 +1,8 @@
 {
-    "family": "ecs-flask",
+    "family": "flask-signups",
     "containerDefinitions": [
         {
-            "image": "ankurjha21/ecs-flask",
+            "image": "ankurjha21/flask-signups",
             "name": "ecs-flask",
             "cpu": 10,
             "memory": 256,
